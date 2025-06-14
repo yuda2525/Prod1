@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Jasa Katalog Digital | yuda2525</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Traditional_batik_motif_of_Java.svg/1920px-Traditional_batik_motif_of_Java.svg.png') no-repeat center center fixed;
+      background-size: cover;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      text-align: center;
+      backdrop-filter: blur(4px);
+    }
+
+    .card {
+      background: rgba(0, 0, 0, 0.6);
+      padding: 40px;
+      border-radius: 20px;
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.4);
+      max-width: 650px;
+      width: 90%;
+      animation: fadeInSlide 1s ease-out;
+    }
+
+    @keyframes fadeInSlide {
+      from {
+        opacity: 0;
+        transform: translateY(40px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    h1 {
+      font-size: 2.4rem;
+      margin-bottom: 10px;
+    }
+
+    img.profile {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      border: 3px solid white;
+      margin-bottom: 20px;
+    }
+
+    table {
+      width: 100%;
+      margin: 20px 0;
+      border-collapse: collapse;
+    }
+
+    th, td {
+      border: 1px solid #ffffff33;
+      padding: 12px;
+    }
+
+    th {
+      background: #ffffff11;
+    }
+
+    a.wa-btn {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 14px 24px;
+      background: #25D366;
+      color: white;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    a.wa-btn:hover {
+      background: #1ebe5d;
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 1.6rem;
+      }
+
+      .card {
+        padding: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <img src="https://github.com/yuda2525.png" alt="Foto Profil GitHub" class="profile" />
+    <h1>Jasa Katalog Digital</h1>
+    <p>Desain katalog produk profesional untuk UMKM & bisnis digital</p>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Paket</th>
+          <th>Fitur</th>
+          <th>Harga</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Basic</td>
+          <td>3 halaman, 1 produk utama</td>
+          <td>Rp75.000</td>
+        </tr>
+        <tr>
+          <td>Pro</td>
+          <td>5–8 halaman, full katalog</td>
+          <td>Rp150.000</td>
+        </tr>
+        <tr>
+          <td>Custom</td>
+          <td>Desain bebas sesuai branding</td>
+          <td>Hubungi kami</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <a class="wa-btn" href="https://wa.me/6285720906090?text=Halo%20saya%20tertarik%20dengan%20jasa%20katalog%20digital" target="_blank">
+      Chat via WhatsApp
+    </a>
+  </div>
+</body>
+</html>
